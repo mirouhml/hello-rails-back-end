@@ -13,7 +13,13 @@ module HelloRailsBackEnd
     config.api_only = true
     config.debug_exception_response_format = :api
 
-    # Configuration for the application, engines, and railties goes here.
+    # Configuration for the applicatconfig.middleware.insert_before ActionDispatch::Static, Rack::Cors do
+    config.middleware.insert_before ActionDispatch::Static, Rack::Cors do
+      allow do
+        origins '*'
+        resource '*', :headers => :any, :methods => [:get, :post, :options]
+      end
+    end
     #
     # These settings can be overridden in specific environments using the files
     # in config/environments, which are processed later.
