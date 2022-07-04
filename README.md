@@ -1,24 +1,36 @@
-# README
+# Hello React & Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> This is a simple project to publish an API that will be used by React.
 
-Things you may want to cover:
+## Link to the React project
 
-* Ruby version
+[Hello React Frontend](https://github.com/mirouhml/hello-react-front-end)
 
-* System dependencies
+## Getting Started
 
-* Configuration
+- Run `bundle install` to get the dependencies.
+- Run `rails db:create:all` to create all databases.
+- Run `rails db:seed` to fill the database.
+- Run `rails s` to launch the website.
 
-* Database creation
+## About me
 
-* Database initialization
+👤 **Mirouhml**
 
-* How to run the test suite
+- GitHub: [@mirouhml](https://github.com/mirouhml)
+- LinkedIn: [ammar-hamlaoui](https://www.linkedin.com/in/ammar-hamlaoui/)
+- Twitter: [@kuronomirou](https://twitter.com/kuronomirou)
 
-* Services (job queues, cache servers, search engines, etc.)
+## 🤝 Contributing
 
-* Deployment instructions
+Contributions, issues, and feature requests are welcome!
 
-* ...
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## License
+
+This is a [MIT](./LICENSE) licensed project.
